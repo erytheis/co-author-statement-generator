@@ -79,10 +79,11 @@ def modify_odt_template(template_path, output_path, replacements):
 template_path = "template.odt"  # Path to your template .odt file
 output_path = "output.odt"  # Path to save the modified .odt file
 replacements = {
+    "AUTHOR_NAME": "Willy Wonka",
     "THESIS_NAME":'THESIS',
-    "PAPER": '',
+    "PAPER_NAME": '',
     "CONTRIBUTION": "conceptualization, methodology, experimentation, and the writing phase.",
-    "NAME": "Joh n Doe"
+    "CO_AUTHOR_NAME": "Joh n Doe"
 }
 
 modify_odt_template(template_path, output_path, replacements)
