@@ -17,5 +17,5 @@ This repository provides a Python script to modify Co-author statements for a Ph
    ```
 2. Run the script:
    ```bash
-   python script.py
+   python main.py
    ```
